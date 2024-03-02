@@ -1,0 +1,10 @@
+// src/components/StyledComponent.jsx
+import styled from 'styled-components';
+
+const StyledComponent = styled.div`
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+`;
+
+export default StyledComponent;
