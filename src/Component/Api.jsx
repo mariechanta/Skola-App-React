@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-
-//ataFetchingComponent
+//DataFetchingComponent
 const DataFetchingComponent = () => {
   const [data, setData] = useState([]);
 
