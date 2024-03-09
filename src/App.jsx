@@ -1,21 +1,20 @@
-import { createContext, useReducer } from 'react';
+import React from 'react';
+import StudentList from './components/StudentList';
+import DataFetchingComponent from './components/DataFetchingComponent';
+import StyledComponent from './components/StyledComponent';
+import UseReducerComponent from './components/UseReducerComponent';
 
-const initialState = {
-  // Definiera din initialState här
-};
-
-const reducer = (state, action) => {
-  // Implementera reducer-logiken här
-};
-
-export const AppContext = createContext();
-
-export const AppProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(reducer, initialState);
-
+const App = () => {
   return (
-    <AppContext.Provider value={{ state, dispatch }}>
-      {children}
-    </AppContext.Provider>
+    <div>
+      <h1>School Web Interaction</h1>
+      <StudentList />
+      <DataFetchingComponent />
+      <StyledComponent />
+      <UseReducerComponent />
+
+    </div>
   );
 };
+
+export default App;
