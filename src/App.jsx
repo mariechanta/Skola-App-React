@@ -1,5 +1,5 @@
 import React from 'react';
-import StudentList from './StudentList';
+import StudentList from './Students';
 import DataFetchingComponent from './Api';
 import StyledComponent from './Styled';
 import UseReducerComponent from './UseReducer';
