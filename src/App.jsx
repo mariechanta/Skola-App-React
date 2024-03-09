@@ -5,7 +5,7 @@ import DataFetchingComponent from './Api';
 import StyledComponent from './Styled';
 import UseReducerComponent from './UseReducer';
 
-const App = () => {
+const StudentApp = () => {
   return (
     <div>
       <h1>School Web for students collaboration</h1>
@@ -18,4 +18,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default StudentApp;
