@@ -1,4 +1,5 @@
 import React from 'react';
+import App from './App';
 import StudentList from './Component/ StudentList';
 import DataFetchingComponent from './Api';
 import StyledComponent from './Styled';
