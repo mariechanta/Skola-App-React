@@ -1,12 +1,9 @@
-import { defineConfig } from "vite";
-import reactRefresh from "@vitejs/plugin-react-refresh";
-
-// https://vitejs.dev/config/
+import { defineConfig } from 'vite';
 export default defineConfig({
+  // other configuration options
   resolve: {
     alias: {
-      "~/*": "./src/*",
+      '@': '/src', // Add aliases for commonly used paths
     },
   },
-  plugins: [reactRefresh()],
 });
