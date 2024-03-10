@@ -1,8 +1,9 @@
 
 import React from 'react';
-import DataFetchingComponent from './Components/DataFetchingComponent';
-import StyledComponent from './Components/StyledComponent';
-import UseReducerComponent from './Components/UseReducerComponent';
+import StudentList from './components/StudentList';
+import DataFetchingComponent from './components/DataFetchingComponent';
+import StyledComponent from './components/StyledComponent';
+import UseReducerComponent from './components/UseReducerComponent';
 
 const App = () => {
   return (
