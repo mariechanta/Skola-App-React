@@ -1,5 +1,4 @@
 import React from 'react';
-import React, { useState, useEffect } from 'react';
 import StudentList from './StudentList';
 import DataFetchingComponent from './Api';
 import StyledComponent from './Styled';
