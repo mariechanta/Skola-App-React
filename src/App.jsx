@@ -1,9 +1,9 @@
-// src/App.js
+
 import React from 'react';
-import StudentList from './components/StudentList';
-import DataFetchingComponent from './components/DataFetchingComponent';
-import StyledComponent from './components/StyledComponent';
-import UseReducerComponent from './components/UseReducerComponent';
+import StudentList from './Components/StudentList';
+import DataFetchingComponent from './Components/DataFetchingComponent';
+import StyledComponent from './Components/StyledComponent';
+import UseReducerComponent from './Components/UseReducerComponent';
 
 const App = () => {
   return (
