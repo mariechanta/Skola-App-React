@@ -1,8 +1,10 @@
 // src/App.js
-import React from 'react';
-import StudentList from './StudentList';
-import Button from './Button';
-import Counter from './Counter';
+import React from "react";
+import ReactDom from "react -dom/client";
+import App from "./App";
+import StudentList from "./StudentList";
+import Button from "./Button";
+import Counter from "./Counter";
 
 const App = () => {
   return (
