@@ -1,13 +1,11 @@
+/ src/index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { AppProvider } from './context/AppContext';
-// använda App Provider
+
 ReactDOM.render(
   <React.StrictMode>
-    <AppProvider>
-      <App />
-    </AppProvider>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
