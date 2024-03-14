@@ -1,8 +1,8 @@
 // src/App.js
 import React from 'react';
-import StudentList from './components/StudentList';
-import Button from './components/Button';
-import Counter from './components/Counter';
+import StudentList from './StudentList';
+import Button from './Button';
+import Counter from './Counter';
 
 const App = () => {
   return (
