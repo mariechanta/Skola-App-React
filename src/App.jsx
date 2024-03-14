@@ -5,6 +5,7 @@ import App from "./App";
 import StudentList from "./StudentList";
 import Button from "./Button";
 import Counter from "./Counter";
+import "./index.css";
 
 const App = () => {
   return (
