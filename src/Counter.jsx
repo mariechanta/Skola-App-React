@@ -1,4 +1,3 @@
-// src/components/Counter.js
 import React, { useState, useMemo } from 'react';
 
 const Counter = () => {
